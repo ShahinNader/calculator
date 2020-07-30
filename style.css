@@ -1,0 +1,130 @@
+:root {
+    font-size: 62.5%;
+    -webkit-tap-highlight-color:transparent;
+}
+
+* {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    font-size: 2.5rem;
+}
+
+html,
+body {
+    height: 100vh;
+
+}
+
+body {
+    padding: 0%;
+    margin: 0%;
+}
+
+#title-text{
+    position: relative;
+    margin:0;
+    text-align: center;
+}
+#top-link{
+    margin:0;
+    align-self: right;
+    margin-bottom: 100px;
+}
+
+
+
+#mainbody {
+    display: grid;
+    grid-template-columns: 400px;
+    grid-template-rows: 50px 100px 450px;
+    position: fixed;
+    width: 400px;
+    height: 600px;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border: 3px solid black;
+    border-radius: 15px;
+    justify-content: center;
+    text-align: center;
+
+    box-shadow: 0 0 5px rgba(0, 0, 0, .05), 2px 2px 5px rgba(0, 0, 0, .1);
+    background-color: #eeeeee;
+
+}
+
+#title {
+    margin: 0;
+    align-items: center;
+}
+
+#display {
+    border-radius: 20px;
+    margin: 15px;
+    border: 3px solid black;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .05), 2px 2px 5px rgba(0, 0, 0, .1);
+    text-align: right;
+}
+
+
+#button-container {
+
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: inline-grid;
+    grid-template-columns: repeat(4, 4fr);
+    grid-template-rows: repeat(5, 5fr);
+    gap: 10px;
+}
+
+.button {
+    border: 3px solid black;
+    border-radius: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .05), 2px 2px 5px rgba(0, 0, 0, .1);
+    background-color:  #fbfbfb;
+}
+
+.button:hover {
+
+    background-color:#dfdfdf;
+}
+
+.button:active {
+    background-color:#dfdfdf;
+    box-shadow: 0 5px #666;
+    transform: translatey(2px);
+    
+}
+.button:focus{
+    outline: 0;
+}
+.display:focus{
+    outline: 0;
+}
+
+.operator {
+    background-color:#d1d1d1;
+
+}
+
+.operator:hover{
+    background-color:#bababa;
+}
+
+.erlik {
+    background-color: #1e1ef8;
+    
+}
+.erlik:hover {
+    
+    background-color: #0000ff;
+}
+
+.github-logo {
+    margin-left: 1rem;
+}
+
